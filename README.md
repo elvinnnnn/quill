@@ -16,17 +16,25 @@
 ## Tech Stack
 
 ### Frontend
+
 - **Framework**: Vue.js
 - **Real-Time Drawing**: HTML5 Canvas with Fabric.js or Konva.js
 - **UI/UX**: TailwindCSS + Vuetify
 
 ### Backend
+
 - **Framework**: Django
 - **Real-Time Communication**: Django Channels for WebSocket support
 - **Authentication**: Google Sign-in
 
 ### Database
+
 - **Primary Database**: PostgreSQL for structured data (e.g., user accounts, chat history)
 - **Real-Time Data**: Redis for in-memory storage of active doodles and real-time messaging
 
 ---
+
+### How to run development servers
+
+- **Django Backend** `python manage.py runserver`
+- **Vue.js Frontend** `npm run dev`
